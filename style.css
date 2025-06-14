@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFCAB1;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.main {
+    margin-top: 10vh; /* Pushes game down */
+}
+.game{
+    margin-top: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    
+    
+}
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #E0607E;
+  margin-top: 20px;
+}
+#winner{
+    font-size: 1.5rem;
+  font-weight: bold;
+  color: #6D3B47;
+  margin-top: 10px;
+
+}
+
+#score {
+  font-size: 1.2rem;
+  color: #037171;
+  margin-top: 10px;
+}
+#res-btn{
+    height: 5vmin;
+    width: 10vmin;
+    border-radius: 2vmin;
+    background-color: #2E294E;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.res{
+    margin-top: 2vmin;
+}
